@@ -1,4 +1,4 @@
-# mission
+# mission1
 html로 coupang 오늘의 발견 만들기 
 display가 아닌 float 사용하여 이미지 배치
 의외로 어려워서 codepen과 vscode 같이 이용해서 공부
