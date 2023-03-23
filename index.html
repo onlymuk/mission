@@ -1,375 +1,142 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>오늘의 발견</title>
-    <link rel="stylesheet" href="./stylesheets/main.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!--컨테이너-->
-    <div class="container">
-      <!-- 헤더부분 -->
-      <header class="head-area">
-        <div class="logo-area">
-          <a href="https://www.coupang.com" class="link">
-            <img src="./assets/logo/logo.png" alt="쿠팡으로" class="logo" />
-          </a>
-        </div>
-      </header>
-      <!-- 헤더부분 -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>오늘의 쇼핑 제안 - 쿠팡(Coupang)</title>
+  <link rel="icon" href="/assets/favicon/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../Mission-02/stylesheets/main.css" />
+</head>
+<body>
+  <div class="container"> 
 
-      <!--오늘의 발견-->
-      <section class="dicovery">
-        <h2 hidden>오늘의 발견 영역</h2>
-        <section class="common-inner">
-          <h3 hidden>공통 부분</h3>
-
-          <!--오늘의 발견 title-->
-          <section class="title-area">
-            <h4 hidden>제목 영역</h4>
-            <section class="title-form">
-              <h5 class="title">오늘의 발견</h5>
-              <p class="div" aria-hidden="true">ㅣ</p>
-              <p class="subtitle">쿠팡에서 엄선한 가장 핫한 제품</p>
-            </section>
-          </section>
-          <!--오늘의 발견 title-->
-
-          <!--오늘의 발견 img-->
-          <section class="img-area">
-            <h2 hidden>이미지 영역</h2>
-
-            <!--오늘의 발견 1층-->
-            <section class="first-floor">
-              <h3 hidden>첫번째 층</h3>
-              <section class="tea-area">
-                <h4 hidden>차 이미지</h4>
-                <section class="img-tea">
-                  <h5 hidden>차 이미지</h5>
-                  <a href="#">
-                    <img
-                      src="./assets/discovery/honeytea.jpg"
-                      alt="따뜻한 차"
-                      class="hot-tea"
-                    />
-                  </a>
-                  <section class="btn-area">
-                    <h5 hidden>버튼 영역</h5>
-                    <button class="btn-short" onclick="location.href='#'">
-                      <svg
-                        width="42"
-                        height="41"
-                        viewBox="0 0 42 41"
-                        fill="none"
-                        xmlns="http://www.w3.org/2000/svg"
-                      >
-                        <path
-                          fill-rule="evenodd"
-                          clip-rule="evenodd"
-                          d="M23.0044 20L18 15.9428L18.8326 15L25 20L18.8326 25L18 24.0572L23.0044 20Z"
-                          fill="#F4F4F4"
-                          class="btn-img"
-                        />
-                      </svg>
-                    </button>
-                  </section>
-                </section>
-              </section>
-              <section class="vaseline-area">
-                <h4 hidden>바셀린 영역</h4>
-                <section class="img-vaseline">
-                  <h5 hidden>바셀린 이미지</h5>
-                  <a href="#">
-                    <img
-                      src="./assets/discovery/vaseline.jpg"
-                      alt="바셀린"
-                      class="vaseline"
-                    />
-                  </a>
-                </section>
-                <section class="btn-area">
-                  <h5 hidden>버튼 영역</h5>
-                  <button class="btn-short" onclick="location.href='#'">
-                    <svg
-                      width="42"
-                      height="41"
-                      viewBox="0 0 42 41"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M23.0044 20L18 15.9428L18.8326 15L25 20L18.8326 25L18 24.0572L23.0044 20Z"
-                        fill="#F4F4F4"
-                        class="btn-img"
-                      />
-                    </svg>
-                  </button>
-                </section>
-              </section>
-            </section>
-            <!--오늘의 발견 1층-->
-
-            <!--오늘의 발견 2층-->
-            <section class="second-floor">
-              <h3 hidden>두번째 층</h3>
-              <section class="handcream-area">
-                <h4 hidden>핸드크림 영역</h4>
-                <section class="img-handcream">
-                  <h5 hidden>핸드크림 이미지</h5>
-                  <a href="#">
-                    <img
-                      src="./assets/discovery/handcream.jpg"
-                      alt="핸드크림"
-                      class="handcream"
-                    />
-                  </a>
-                </section>
-                <section class="btn-area">
-                  <h5 hidden>버튼 영역</h5>
-
-                  <button class="btn-short" onclick="location.href='#'">
-                    <svg
-                      width="42"
-                      height="41"
-                      viewBox="0 0 42 41"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M23.0044 20L18 15.9428L18.8326 15L25 20L18.8326 25L18 24.0572L23.0044 20Z"
-                        fill="#F4F4F4"
-                        class="btn-img"
-                      />
-                    </svg>
-                  </button>
-                </section>
-              </section>
-              <section class="bibs-area">
-                <h4 hidden>분유 영역</h4>
-                <section class="img-bibs">
-                  <h5 hidden>분유 이미지</h5>
-                  <a href="#">
-                    <img
-                      src="./assets/discovery/bibs.jpg"
-                      alt="분유"
-                      class="bibs"
-                    />
-                  </a>
-                </section>
-                <section class="btn-area">
-                  <h5 hidden>버튼 영역</h5>
-
-                  <button class="btn-short" onclick="location.href='#'">
-                    <svg
-                      width="42"
-                      height="41"
-                      viewBox="0 0 42 41"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M23.0044 20L18 15.9428L18.8326 15L25 20L18.8326 25L18 24.0572L23.0044 20Z"
-                        fill="#F4F4F4"
-                        class="btn-img"
-                      />
-                    </svg>
-                  </button>
-                </section>
-              </section>
-              <section class="hansem-area">
-                <h4 hidden>한샘 영역</h4>
-                <section class="img-hansem">
-                  <h5 hidden>한샘 이미지</h5>
-                  <a href="#">
-                    <img
-                      src="./assets/discovery/hanssem.jpg"
-                      alt="한샘"
-                      class="hansem"
-                    />
-                  </a>
-                </section>
-                <section class="btn-area">
-                  <h5 hidden>버튼 영역</h5>
-
-                  <button class="btn-short" onclick="location.href='#'">
-                    <svg
-                      width="42"
-                      height="41"
-                      viewBox="0 0 42 41"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M23.0044 20L18 15.9428L18.8326 15L25 20L18.8326 25L18 24.0572L23.0044 20Z"
-                        fill="#F4F4F4"
-                        class="btn-img"
-                      />
-                    </svg>
-                  </button>
-                </section>
-              </section>
-              <section class="dumpling-area">
-                <h4 hidden>만두 영역</h4>
-                <section class="img-dumpling">
-                  <h5 hidden>만두 이미지</h5>
-                  <a href="#">
-                    <img
-                      src="./assets/discovery/dumpling.jpg"
-                      alt="만두"
-                      class="dumpling"
-                    />
-                  </a>
-                </section>
-                <section class="btn-area">
-                  <h5 hidden>버튼 영역</h5>
-
-                  <button class="btn-short" onclick="location.href='#'">
-                    <svg
-                      width="42"
-                      height="41"
-                      viewBox="0 0 42 41"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M23.0044 20L18 15.9428L18.8326 15L25 20L18.8326 25L18 24.0572L23.0044 20Z"
-                        fill="#F4F4F4"
-                        class="btn-img"
-                      />
-                    </svg>
-                  </button>
-                </section>
-              </section>
-            </section>
-            <!--오늘의 발견 2층-->
-
-            <!--오늘의 발견 3층-->
-            <section class="third-floor">
-              <h3 hidden>세번째 층</h3>
-              <section class="wetissue-area">
-                <h4 hidden>물티슈 영역</h4>
-                <section class="img-wetissue">
-                  <h5 hidden>물티슈 이미지</h5>
-                  <a href="#">
-                    <img
-                      src="./assets/discovery/wettissue.jpg"
-                      alt="물티슈"
-                      class="wetissue"
-                    />
-                  </a>
-                </section>
-                <section class="btn-area">
-                  <h5 hidden>버튼 영역</h5>
-                  <button class="btn-short" onclick="location.href='#'">
-                    <svg
-                      width="42"
-                      height="41"
-                      viewBox="0 0 42 41"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M23.0044 20L18 15.9428L18.8326 15L25 20L18.8326 25L18 24.0572L23.0044 20Z"
-                        fill="#F4F4F4"
-                        class="btn-img"
-                      />
-                    </svg>
-                  </button>
-                </section>
-              </section>
-              <section class="febreze-area">
-                <h4 hidden>페브리즈 영역</h4>
-                <section class="img-febreze">
-                  <h5 hidden>페브리즈 이미지</h5>
-                  <a href="#">
-                    <img
-                      src="./assets/discovery/febreze.jpg"
-                      alt="페브리즈"
-                      class="febreze"
-                    />
-                  </a>
-                </section>
-                <section class="btn-area">
-                  <h5 hidden>버튼 영역</h5>
-                  <button class="btn-short" onclick="location.href='#'">
-                    <svg
-                      width="42"
-                      height="41"
-                      viewBox="0 0 42 41"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M23.0044 20L18 15.9428L18.8326 15L25 20L18.8326 25L18 24.0572L23.0044 20Z"
-                        fill="#F4F4F4"
-                        class="btn-img"
-                      />
-                    </svg>
-                  </button>
-                </section>
-              </section>
-              <section class="dyson-area">
-                <h4 hidden>다이슨 영역</h4>
-                <section class="img-dyson">
-                  <h5 hidden>다이슨 이미지</h5>
-                  <a href="#">
-                    <img
-                      src="./assets/discovery/dyson.jpg"
-                      alt="다이슨"
-                      class="dyson"
-                    />
-                  </a>
-                </section>
-                <section class="btn-area">
-                  <h5 hidden>버튼 영역</h5>
-
-                  <button class="btn-short" onclick="location.href='#'">
-                    <svg
-                      width="42"
-                      height="41"
-                      viewBox="0 0 42 41"
-                      fill="none"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        clip-rule="evenodd"
-                        d="M23.0044 20L18 15.9428L18.8326 15L25 20L18.8326 25L18 24.0572L23.0044 20Z"
-                        fill="#F4F4F4"
-                        class="btn-img"
-                      />
-                    </svg>
-                  </button>
-                </section>
-              </section>
-            </section>
-            <!--오늘의 발견 3층-->
-          </section>
-          <!--오늘의 발견 img-->
+    <header>
+      <div class="con">
+        <a href="https://www.coupang.com/" class="coupang">
+          <picture>
+            <source type="image/webp" srcset="./assets/logo/logo.webp">
+            <source type="image/png" srcset="./assets/logo/logo.png">
+            <img src="./assets/logo/logo@2x.png" alt="쿠팡으로" class="logo-img">
+          </picture>
+        </a>
+      </div>
+    </header>
+    
+    <section class="content">
+      <h2 hidden>오늘의 쇼핑 부분</h2>
+      <section class="title-area">
+        <h3 hidden>제목 영역</h3>
+        <section class="title-inner">
+          <h4 hidden>제목 안</h4>
+          <section class="bgc-icon"><h5 hidden>제목아이콘</h5></section>
+          <section class="title"><h5>오늘의 쇼핑 제안</h5></section>
         </section>
       </section>
-      <!--오늘의 발견-->
-    </div>
-    <!--컨테이너-->
-  </body>
+      
+      <section class="items-area">
+        <h3 hidden>아이템 영역</h3>
+        <section class="item-inner">
+          <h4 hidden>아이템 안</h4>
+          <section class="item-form">
+            <h5 hidden>상품 이미지</h5>
+
+            <section class="furniture">
+              <h6 hidden>가구 영역</h6>
+                <a href="/">
+                  <div class="discount" aria-label="할인율">
+                    <span class="dis-num">30%</span>
+                  </div>
+                  <img src="./assets/offer/furniture.jpg" alt="가구" class="furniture-img">
+                  <section class="info">
+                    <h6 hidden>정보</h6>
+                    <p class="item-title">솔로리빙 셀린 렌지대 600 800 주방 수납장 템바보드 전자레인지 밥솥 에어프라이어 주방정리 수납장</p>
+                    <div class="furn">
+                      <span class="rating">
+                        <span class="star-furniture" aria-label="평점점수 90점"></span>
+                      </span>
+                      <span class="ren-person" aria-label="구매자 리뷰수">(3,233)</span>
+                    </div>
+                  </section>
+                </a>
+              </section>
+              
+              <section class="renton">
+                <h6 hidden>랜턴 영역</h6>
+                <a href="/">
+                  <img src="./assets/offer/renton.jpg" alt="랜턴" class="renton-img">
+                  <section class="info">
+                    <h6 hidden>정보</h6>
+                  <p class="item-title">옆 동네몰 레트로 LED 감성 캠핑 랜턴 노란빛 대, 빈티지 브론즈</p>
+                  <span class="rocket"><img src="./assets/icon/badge-rocket.svg" alt="로켓배송 배송유형"></span>
+                  <span class="rating">
+                    <span class="star-renton" aria-label="평점점수 90점"></span>
+                  </span>
+                  <span class="ren-person" aria-label="구매자 리뷰수">(1,807)</span>
+                </section>
+              </a>
+            </section>
+            
+            <section class="drack">
+              <h6 hidden>식기건조대 영역</h6>
+              <a href="/">
+                <img src="./assets/offer/drying-rack.jpg" alt="식기건조대" class="drack-img">
+                <section class="info">
+                  <h6 hidden>정보</h6>
+                  <p class="item-title">프리미엄 부착식 식기건조대 (600~900)AL 싱크대선반 씽크선반 주방선반, 선택-2) 프리미엄 식기건조대 800AL</p>
+                  <span class="deliver" role="text" aria-label="배송유형">무료배송</span>
+                  <span class="rating">
+                    <span class="star-drack" aria-label="평점점수 80점"></span>
+                  </span>
+                  <span class="ren-person" aria-label="구매자 리뷰수">(2,423)</span>
+                </section>
+              </a>
+            </section>
+            
+            <section class="boohgle">
+              <h6 hidden>냄비 영역</h6>
+              <a href="/">
+                <span class="discount" role="text" aria-label="할인율">
+                  <span class="dis-num">10%</span>
+                </span>
+                <img src="./assets/offer/boohgle.jpg" alt="냄비" class="boohgle-img">
+                <section class="info">
+                  <h6 hidden>정보</h6>
+                  <p class="item-title">타지 않는 냄비 보오글 네모 6종 풀세트(51가지 안전시험 인증, hBN 세라믹 코팅)</p>
+                  <span class="rocket"><img src="./assets/icon/badge-rocket.svg" alt="로켓배송 배송유형"></span>
+                  <span class="rating">
+                    <span class="star-boohgle" aria-label="평점점수 100점"></span>
+                  </span>
+                  <span class="ren-person" aria-label="구매자 리뷰수">(1,807)</span>
+                </section>
+              </a>
+            </section>
+            
+            <section class="desk">
+              <h6 hidden>데스크 영역</h6>
+              <a href="/">
+                <span class="discount" role="text" aria-label="할인율"> 
+                  <span class="dis-num">25%</span>
+                </span>
+                <img src="./assets/offer/deskset.jpg" alt="데스크 세트" class="desk-img">
+                <section class="info">
+                  <h6 hidden>정보</h6>
+                  <p class="item-title">베스트리빙 베이직 멀티 H형 1200 철제 책상세트, 화이트</p>
+                  <span class="deliver" role="text" aria-label="배송유형">무료배송</span>
+                  <span class="rating">
+                    <span class="star-desk" aria-label="평점점수 80점"></span>
+                  </span>
+                  <span class="ren-person" aria-label="구매자 리뷰수">(3,203)</span>
+                </section>
+              </a>
+            </section>
+          </section>      
+        </section>
+      </section>
+    </section>
+  </div>
+</body>
 </html>
