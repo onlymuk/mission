@@ -15,13 +15,13 @@ flex시에 생기는 조금의 여백이나 공간들을 제어해주면 쉬운 
 aria-label =""에 대해 공부 wai-aria 복습 예정
 after요소와 before요소 등 가상요소 공부
 
-#mission3
+# mission3
 오늘이 추천 페이지
 캐러셀 ui를 어떻게 구현해야할지 100번은 더 생각함
 구글 유튜브 chatGpt 등 사용할 수 있는 모든 것을 사용하여 해결
 다음에 할 때 또다시 할 수 있도록 복습 예정
 
-#mission4
+# mission4
 sr_only을 사용하여 접근성 문제 해결 (오픈 소스)
 display grid 첫 사용이었기에 관련 내용 다시 공부. 
 grid-template-columns
