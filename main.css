@@ -1,6 +1,11 @@
-/* 공통 스타일 */
-@import url("./common/theme.css");
-@import url("./common/base.css");
+@import url("./theme.css");
 
-/* 페이지별 스타일 */
-@import url("./pages/discovery.css");
+@import url("./init/normalize.css");
+@import url("./init/base.css");
+
+@import url("./common/a11y.css");
+@import url("./common/easings.css");
+
+@import url("./pages/header.css");
+
+@import url("../assets/css/style.css");
